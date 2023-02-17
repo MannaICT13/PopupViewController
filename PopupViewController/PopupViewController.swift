@@ -10,6 +10,8 @@ import UIKit
 
 class PopupViewController: UIViewController {
     
+    @IBOutlet private weak var textView: UITextView!
+    @IBOutlet private weak var closeButtonOutlet: UIButton!
     private lazy var blurredView: UIView = {
            let containerView = UIView()
            let blurEffect = UIBlurEffect(style: .light)
@@ -28,5 +30,9 @@ class PopupViewController: UIViewController {
         super.viewDidLoad()
         view.addSubview(blurredView)
         view.sendSubviewToBack(blurredView)
+    }
+    
+    @IBAction private func closeButtonAction(_ sender: UIButton) {
+        
     }
 }
