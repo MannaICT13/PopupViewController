@@ -79,8 +79,26 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1C-mu-ZtQ">
+                                <rect key="frame" x="153.66666666666666" y="404" width="83" height="36"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="egx-sO-3ha"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Click Here"/>
+                                <connections>
+                                    <action selector="clickHere:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ENB-gA-GMC"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="R1C-mu-ZtQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="myq-aW-Qc1"/>
+                            <constraint firstItem="R1C-mu-ZtQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oKE-XW-biM"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0lE-tw-JN8"/>
                 </viewController>
