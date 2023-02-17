@@ -14,6 +14,7 @@
 		2AC280A5299FAAF400F38C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC280A4299FAAF400F38C60 /* Assets.xcassets */; };
 		2AC280A8299FAAF400F38C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC280A6299FAAF400F38C60 /* LaunchScreen.storyboard */; };
 		2AC280B4299FAE6800F38C60 /* CustomVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC280B3299FAE6800F38C60 /* CustomVisualEffectView.swift */; };
+		2AC280B6299FAF4D00F38C60 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC280B5299FAF4D00F38C60 /* PopupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2AC280A7299FAAF400F38C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AC280A9299FAAF400F38C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AC280B3299FAE6800F38C60 /* CustomVisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVisualEffectView.swift; sourceTree = "<group>"; };
+		2AC280B5299FAF4D00F38C60 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				2AC280B3299FAE6800F38C60 /* CustomVisualEffectView.swift */,
+				2AC280B5299FAF4D00F38C60 /* PopupViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC280B6299FAF4D00F38C60 /* PopupViewController.swift in Sources */,
 				2AC280A0299FAAF000F38C60 /* ViewController.swift in Sources */,
 				2AC2809C299FAAF000F38C60 /* AppDelegate.swift in Sources */,
 				2AC280B4299FAE6800F38C60 /* CustomVisualEffectView.swift in Sources */,
