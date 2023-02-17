@@ -8,10 +8,17 @@
 import Foundation
 import UIKit
 
+extension PopupViewController {
+    class Callback {
+        var didTapClose: () -> Void = { }
+    }
+}
+
 class PopupViewController: UIViewController {
-    
     @IBOutlet private weak var textView: UITextView!
     @IBOutlet private weak var closeButtonOutlet: UIButton!
+    
+    let callback = Callback()
     private lazy var blurredView: UIView = {
            let containerView = UIView()
            let blurEffect = UIBlurEffect(style: .light)
@@ -39,6 +46,6 @@ class PopupViewController: UIViewController {
     }
     
     @IBAction private func closeButtonAction(_ sender: UIButton) {
-        
+        self.callback.didTapClose()
     }
 }
