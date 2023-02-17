@@ -13,6 +13,7 @@
 		2AC280A3299FAAF000F38C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC280A1299FAAF000F38C60 /* Main.storyboard */; };
 		2AC280A5299FAAF400F38C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC280A4299FAAF400F38C60 /* Assets.xcassets */; };
 		2AC280A8299FAAF400F38C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC280A6299FAAF400F38C60 /* LaunchScreen.storyboard */; };
+		2AC280B4299FAE6800F38C60 /* CustomVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC280B3299FAE6800F38C60 /* CustomVisualEffectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2AC280A4299FAAF400F38C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AC280A7299FAAF400F38C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AC280A9299FAAF400F38C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC280B3299FAE6800F38C60 /* CustomVisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVisualEffectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		2AC2809A299FAAF000F38C60 /* PopupViewController */ = {
 			isa = PBXGroup;
 			children = (
+				2AC280B2299FAE1A00F38C60 /* View */,
 				2AC280B0299FAD6900F38C60 /* Support Files */,
 				2AC280B1299FADBC00F38C60 /* ViewController */,
 				2AC280AF299FAD4E00F38C60 /* Storyboard */,
@@ -89,6 +92,14 @@
 				2AC2809F299FAAF000F38C60 /* ViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2AC280B2299FAE1A00F38C60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AC280B3299FAE6800F38C60 /* CustomVisualEffectView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 			files = (
 				2AC280A0299FAAF000F38C60 /* ViewController.swift in Sources */,
 				2AC2809C299FAAF000F38C60 /* AppDelegate.swift in Sources */,
+				2AC280B4299FAE6800F38C60 /* CustomVisualEffectView.swift in Sources */,
 				2AC2809E299FAAF000F38C60 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
