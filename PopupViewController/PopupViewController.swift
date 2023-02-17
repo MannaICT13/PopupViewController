@@ -26,5 +26,7 @@ class PopupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(blurredView)
+        view.sendSubviewToBack(blurredView)
     }
 }
