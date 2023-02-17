@@ -28,8 +28,14 @@ class PopupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       setupView()
+    }
+    
+    private func setupView() {
         view.addSubview(blurredView)
         view.sendSubviewToBack(blurredView)
+        textView.layer.cornerRadius = 4.0
+        closeButtonOutlet.layer.cornerRadius = 4.0
     }
     
     @IBAction private func closeButtonAction(_ sender: UIButton) {
